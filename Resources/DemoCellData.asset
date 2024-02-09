@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051b7309b54441eb80e04c3c096a6f2a, type: 3}
+  m_Name: DemoCellData
+  m_EditorClassIdentifier: 
+  IsActive: 1
+  EmptyBlock: {fileID: 11400000, guid: f79f41e3e7fdc92449830077894421f7, type: 2}
+  EmptyBackground: {fileID: 11400000, guid: 8c9eeb33a1e59b343b73e414413cb5b3, type: 2}
+  TextureSize: {x: 16, y: 16}
+  DefaultBlock: {fileID: 11400000, guid: 0962774f11d63f14d933ee26814a25a1, type: 2}
+  DefaultBackground: {fileID: 11400000, guid: 888cf1d1bd3d0624f982bfe0210f50a7, type: 2}
+  BaseBlock: {fileID: 11400000, guid: 188721bee76953544bc34c006e9ab111, type: 2}
+  CustomBlocks:
+  - {fileID: 11400000, guid: 7570f71b54b07b743b2483208ec5da00, type: 2}
+  - {fileID: 11400000, guid: 69793d7ea24b59b47804050cace54780, type: 2}
+  - {fileID: 11400000, guid: 5ec078cc0844e2c499cc9673f05a4a05, type: 2}
+  CustomBackgrounds: []

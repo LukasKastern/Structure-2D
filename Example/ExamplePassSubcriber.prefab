@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6388124063961898905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6388124063961898907}
+  - component: {fileID: 6388124063961898906}
+  m_Layer: 0
+  m_Name: ExamplePassSubcriber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6388124063961898907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388124063961898905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6388124063961898906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388124063961898905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0fea0ab79f484e9c0ec8e1d53f9a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerSpawnPass:
+    _playerObject: {fileID: 8029809736147734589, guid: d0238a5290ea6134ba999d6d8a331e58,
+      type: 3}
+  _grassSpawnPass:
+    AmountOfObjectsToSpawn: 20
+    ObjectsToSpawn:
+    - {fileID: 5319482877719481835, guid: 8870bc399297b62488440bb2fb390a61, type: 3}
+    MinSpawnDistance: 9
+    MaxSpawnDistance: 15
+    SpawnLayer: 1
+  _grassBlockSpawnPass:
+    _grassBlock: {fileID: 11400000, guid: 69793d7ea24b59b47804050cace54780, type: 2}
+    _grassBackground: {fileID: 0}
+    _blockHeight: 3
+  _plantSpawnpass:
+    AmountOfObjectsToSpawn: 12
+    ObjectsToSpawn:
+    - {fileID: 3257350006129818561, guid: 8666a61194075744087efa5427eaf03d, type: 3}
+    - {fileID: 5097629718241325311, guid: f4639ded2e3f1c244a9b037a46e81900, type: 3}
+    - {fileID: 7875966664647442951, guid: 70f983237f7558940ac491ee427f908a, type: 3}
+    - {fileID: 8685508995301894967, guid: 8b7a7a3937feb354fa3fd33b22857f17, type: 3}
+    MinSpawnDistance: 10
+    MaxSpawnDistance: 20
+    SpawnLayer: 1
+  _coalSpawnData: {fileID: 11400000, guid: 5922b01db3808184ba65e8eba117fa24, type: 2}
+  _stoneSpawnData: {fileID: 11400000, guid: a62d8883370806444b3778e319410820, type: 2}
+  _treeSpawnPass:
+    AmountOfObjectsToSpawn: 10
+    ObjectsToSpawn: []
+    MinSpawnDistance: 30
+    MaxSpawnDistance: 60
+    SpawnLayer: 1
+    MaxTreeParts: 6
+    MinTreeParts: 3
+    _treeRoot: {fileID: 5659109615071632018, guid: f88937e2096c6a448a4a1df188aa1d87,
+      type: 3}
+    _treeTop: {fileID: 2979588225720554705, guid: 8b9b5cbb6fcc74348bf8022ae0c6bea3,
+      type: 3}
+    _treeParts:
+    - {fileID: 4209970808214053400, guid: 39ac1c0461e8d064d9139f32cefd7232, type: 3}
+    - {fileID: 2342760295823813085, guid: c5188275aafc6da4f94913b5ad5910d0, type: 3}
